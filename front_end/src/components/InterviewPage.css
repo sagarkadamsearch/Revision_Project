@@ -1,0 +1,23 @@
+/* InterviewPage.css */
+.interview-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .interviewer-section,
+  .user-section {
+    flex: 1;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .response {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  

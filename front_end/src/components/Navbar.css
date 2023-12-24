@@ -1,0 +1,44 @@
+/* NavBar.css */
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .img{
+    width: 100px;
+  }
+  
+  .nav-links {
+    display: flex;
+    
+    gap: 110px;
+    
+    margin-left: 560px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+   
+  }
+  
+  .try-interview-btn {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
