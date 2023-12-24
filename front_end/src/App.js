@@ -7,19 +7,19 @@ import InterviewPage from './components/InterviewPage';
 import Navbar from './components/Navbar';
 import "./components/Navbar.css"
 import {Routes , Route} from "react-router-dom"
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/contacts' element={<Contact/>} />
         <Route path='/interview' element={<InterviewPage/>} />
       </Routes>
-
+      <Footer/>
     </div>
   );
 }
