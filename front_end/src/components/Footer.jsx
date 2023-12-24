@@ -100,7 +100,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <p className="mt-8 text-xs text-gray-800">© 2023 CodeFuse</p>
+          <p className="mt-8 text-xs text-gray-800">© 2023 AI Interview</p>
         </div>
       </footer>
     </>
